@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 120px;
+    width: 1440px;
+    margin: 0 auto;
+}
+header > img {
+    width: 111.17px;
+    height: 27.68px;
+}
+.dark {
+    width: 167px;
+    height: 56px;
+    border: none;
+    color: white;
+    border-radius: 28px;
+    background: #13183F;
+}
+
+
+
+
+
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+
+}
+.top-right > img {
+    position: absolute;
+    top: -200px;
+    right: -200px;
+}
+.top-left {
+    height: 359px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight:800;
+    font-size: 56px;
+    width: 457px;
+}
+h2 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    width: 445px;
+    color: #83869A;
+}
+.title {
+    width: 167px;
+    height: 56px;
+    border: none;
+    color: white;
+    border-radius: 28px;
+    background: rgb(255,111,72);
+    background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+}
+
+.container {
+    display: grid;
+    column-gap: 30px;
+    row-gap: 56px;
+    grid-template-columns:350px 350px 350px; /* 3 colonnes de largeur différente */
+    grid-template-rows:346px 346px; /* 2 rangées */
+    width: 1110px;
+    height: 748px;
+    margin: 0 auto;
+}
+.item {
+    width: 350px;
+    height: 346px;
+}
+
+.bottom {
+    height: 888px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,241,255,1) 100%);
+}
+
+
+footer {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 1440px;
+    margin: 0 auto;
+    height: 120px;
+    background-color: #13183F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer > img {
+    width: 111.17px;
+    height: 27.68px;
+}
+.shade {
+    width: 167px;
+    height: 56px;
+    border: none;
+    color: white;
+    border-radius: 28px;
+    background: #13183F;
+}
+
+
