@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
 header {
     padding-left: 12rem;
     padding-right: 15.5rem;
@@ -35,7 +36,6 @@ header > img {
 
 
 main {
-    /*width: 1440px;*/
     margin: 0 auto;
     background-color: white;
 
@@ -162,25 +162,23 @@ h2 {
     height: 888px;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,241,255,1) 100%);
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
+
 }
 
 
 footer {
-
-
     margin: 0 auto;
     height: 120px;
     background-color: #13183F;
-
 }
 .foot-width > img {
     width: 111.17px;
     height: 27.68px;
 }
 .foot-width {
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     padding-left: 11rem;
     padding-right: 9.5rem;
     width: 1440px;
@@ -188,6 +186,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 .shade {
     width: 167px;
@@ -200,6 +199,70 @@ footer {
     cursor: pointer;
     font-weight: 700;
     font-size: 18px;
+
 }
 
+@media screen and (max-width: 1440px) {
+    header {
+        width: 768px;
+    }
+    .top {
+        padding-left: 11.5rem;
+        padding-right: 2rem;
+        padding-top: 5em;
+        display: flex;
+        flex-direction: row;
+        width: 768px;
+        margin: 0 auto;
+        height: 350px;
+    
+    }
+    .top-right {
 
+        width: 640.71px;
+        height: 640px;
+        top: -320px;
+        right: 0px;
+
+    }
+    h1 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight:800;
+        font-size: 40pxpx;
+        width: 457px;
+    }
+    h2 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight:500;
+        font-size: 16px;
+        width: 445px;
+        color: #83869A;
+    }
+    .container {
+        column-gap: 31px;
+        row-gap: 72px;
+        grid-template-columns:340px 340px; /* 3 colonnes de largeur différente */
+        grid-template-rows:283px 283px 283px; /* 2 rangées */
+        width: 689px;
+        height: 913px;
+        margin: 0 auto;
+    }
+    footer {
+
+    }
+    .foot-width > img {
+        width: 111.17px;
+        height: 27.68px;
+    }
+    .foot-width {
+        padding-top: 2.5rem;
+        padding-left: 11rem;
+        padding-right: 9.5rem;
+        width: 768px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
