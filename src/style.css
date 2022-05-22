@@ -204,9 +204,6 @@ footer {
 
 @media screen and (max-width: 1440px) {
     header {
-        width: 768px;
-    }
-    header {
         padding-left: 3rem;
         padding-right: 3rem;
         padding-top: 2.5rem;
@@ -218,43 +215,75 @@ footer {
         margin: 0 auto;
     
     }
+    header > img {
+        width: 89px;
+        height: 23.03px;
+    }
+    .dark {
+        width: 140px;
+        height: 48px;
+        border: none;
+        color: white;
+        border-radius: 28px;
+        background: #13183F;
+        z-index: 9;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+    }
     .top {
         padding-top: 2em;
-        padding-left: 1em;
+        padding-left: 0px;
         display: flex;
         flex-direction: row;
-        align-items: flex-start;
         width: 768px;
         margin: 0 auto;
-        height: 350px;
+        height: 550px;
+        padding-right: 0px;
     
     }
     .top-left {
+        width: 398px;
         height: 284px;
         display: flex;
+        padding-left: 3em;
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-around;
         
     }
+    .title {
+        width: 167px;
+        height: 56px;
+        border: none;
+        color: white;
+        border-radius: 28px;
+        background: rgb(255,111,72);
+        background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+    }
     .top-right {
         width: 640.71px;
         height: 640px;
-        top: -320px;
-        right: 150px;
+        top: -100px;
+        right: 0px;
+        background-image: url("./assets/image-hero-tablet.png");
+        background-position: top -100px left -20px;
     }
 
     h1 {
         font-family: 'Plus Jakarta Sans', sans-serif;
         font-weight:800;
         font-size: 40px;
-        width: 457px;
+        width: 326px;
     }
     h2 {
         font-family: 'Plus Jakarta Sans', sans-serif;
         font-weight:500;
         font-size: 16px;
-        width: 445px;
+        width: 398px;
         color: #83869A;
     }
     .bottom {
@@ -306,13 +335,13 @@ footer {
     }
 
     .foot-width > img {
-        width: 111.17px;
-        height: 27.68px;
+        width: 89px;
+        height: auto;
     }
     .foot-width {
         padding-top: 2.5rem;
-        padding-left: 11rem;
-        padding-right: 9.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         width: 768px;
         margin: 0 auto;
         display: flex;
@@ -320,7 +349,17 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
-}
-@media screen and (max-width: 768px) {
-
+    .shade {
+        width: 140px;
+        height: 48px;
+        border: none;
+        color: white;
+        border-radius: 28px;
+        background: rgb(72,81,255);
+        background: linear-gradient(180deg, rgba(72,81,255,1) 0%, rgba(240,42,166,1) 100%);
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+    
+    }
 }
