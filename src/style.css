@@ -206,29 +206,48 @@ footer {
     header {
         width: 768px;
     }
-    .top {
-        padding-left: 11.5rem;
-        padding-right: 2rem;
-        padding-top: 5em;
+    header {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-top: 2.5rem;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        height: 120px;
+        width: 768px;
+        margin: 0 auto;
+    
+    }
+    .top {
+        padding-top: 2em;
+        padding-left: 1em;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
         width: 768px;
         margin: 0 auto;
         height: 350px;
     
     }
+    .top-left {
+        height: 284px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        
+    }
     .top-right {
-
         width: 640.71px;
         height: 640px;
         top: -320px;
-        right: 0px;
-
+        right: 150px;
     }
+
     h1 {
         font-family: 'Plus Jakarta Sans', sans-serif;
         font-weight:800;
-        font-size: 40pxpx;
+        font-size: 40px;
         width: 457px;
     }
     h2 {
@@ -238,18 +257,54 @@ footer {
         width: 445px;
         color: #83869A;
     }
+    .bottom {
+        height: 1020px;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,241,255,1) 100%);
+        width: 100%;
+        margin: 0 auto;
+    
+    }
     .container {
-        column-gap: 31px;
-        row-gap: 72px;
+        column-gap: 11px;
+        row-gap: 32px;
         grid-template-columns:340px 340px; /* 3 colonnes de largeur différente */
         grid-template-rows:283px 283px 283px; /* 2 rangées */
         width: 689px;
         height: 913px;
         margin: 0 auto;
     }
-    footer {
-
+    .item {
+        width: 340px;
+        height: 283px;
     }
+
+    .rounded {
+        height: 259px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 2em;
+    
+    }
+    .fader {
+        padding: 2em;
+        padding-left: 1em;
+        color: white;
+        height: 259px;
+        border-radius: 15px;
+        background: rgb(255,111,72);
+        background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        font-weight: 800;
+        font-size: 32px;
+    
+    }
+
     .foot-width > img {
         width: 111.17px;
         height: 27.68px;
@@ -265,4 +320,7 @@ footer {
         justify-content: space-between;
         align-items: center;
     }
+}
+@media screen and (max-width: 768px) {
+
 }
