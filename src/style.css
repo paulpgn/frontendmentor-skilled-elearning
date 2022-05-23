@@ -201,7 +201,18 @@ footer {
     font-size: 18px;
 
 }
-
+.shade:hover {
+    opacity: 50%;
+}
+.dark:hover {
+    background-color: #666CA3;
+}
+.text:hover {
+    opacity: 50%;
+}
+.title:hover {
+    opacity: 50%;
+}
 @media screen and (max-width: 1440px) {
     header {
         padding-left: 3rem;
@@ -362,4 +373,171 @@ footer {
         font-size: 16px;
     
     }
+
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+        width: 343px;
+        margin: 0 auto;
+    
+    }
+    header > img {
+        width: 89px;
+        height: 23.03px;
+    }
+    .dark {
+        width: 140px;
+        height: 48px;
+        border: none;
+        color: white;
+        border-radius: 28px;
+        background: #13183F;
+        z-index: 9;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .top {
+        padding-top: 2em;
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 375px;
+        margin: 0 auto;
+        height: 692px;
+        padding-right: 0px;
+    
+    }
+    .top-left {
+        width: 343px;
+        margin: 0 auto;
+        height: 285px;
+        display: flex;
+        padding-left: 0em;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        
+    }
+    .title {
+        width: 167px;
+        height: 56px;
+        border: none;
+        color: white;
+        border-radius: 28px;
+        background: rgb(255,111,72);
+        background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .top-right {
+        margin-top: 3em;
+        width: 375px;
+        height: 400px;
+        top: 0px;
+        right: 0px;
+        background-image: url("./assets/image-hero-mobile.png");
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    h1 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight:800;
+        font-size: 40px;
+        width: 343px;
+    }
+    h2 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight:500;
+        font-size: 16px;
+        width: 343px;
+        color: #83869A;
+    }
+    .bottom {
+        height: 1795px;
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,241,255,1) 100%);
+        width: 100%;
+        margin: 0 auto;
+    
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 375px;
+        height: 1695px;
+        margin: 0 auto;
+    }
+    .item {
+        width: 343px;
+        height: 283px;
+    }
+
+    .rounded {
+        height: 259px;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 2em;
+    
+    }
+    .fader {
+        padding: 1.2em;
+        color: white;
+        height: 120px;
+        border-radius: 15px;
+        background: rgb(255,111,72);
+        background: linear-gradient(180deg, rgba(255,111,72,1) 0%, rgba(240,42,166,1) 100%);
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        font-weight: 800;
+        font-size: 24px;
+        width: 343px;
+    }
+
+    .foot-width > img {
+        width: 89px;
+        height: auto;
+    }
+    .foot-width {
+        padding-top: 2.5rem;
+        padding-left: 0em;
+        padding-right: 1em;
+        width: 375px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .shade {
+        width: 140px;
+        height: 48px;
+        border: none;
+        color: white;
+        border-radius: 28px;
+        background: rgb(72,81,255);
+        background: linear-gradient(180deg, rgba(72,81,255,1) 0%, rgba(240,42,166,1) 100%);
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 16px;
+    
+    }
+
 }
